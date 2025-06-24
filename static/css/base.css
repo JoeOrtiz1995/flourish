@@ -25,6 +25,10 @@ body {
   line-height: 1.6;
 }
 
+main {
+    background-color: var(--highlight);
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -53,9 +57,9 @@ a:hover {
   padding: 1rem;
 }
 
-.navbar .navbar-brand, .navbar a {
+/* .navbar .navbar-brand, .navbar a {
   color: white;
-}
+} */
 
 /* === Buttons === */
 .btn {
