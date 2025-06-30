@@ -65,8 +65,7 @@ a:hover {
 .btn {
   padding: 0.6rem 1.2rem;
   background-color: var(--primary);
-  color: white;
-  border: none;
+  border: 1px solid var(--primary-dark);
   border-radius: 0.5rem;
   transition: background-color 0.3s ease;
 }
